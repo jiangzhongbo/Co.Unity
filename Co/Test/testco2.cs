@@ -25,7 +25,7 @@ public class testco2 : MonoBehaviour
 
     IEnumerator test3()
     {
-        //yield return UPromise.Promise.Resolve(0);
+        yield return UPromise.Promise.Resolve(0);
         yield return Co.ToNext;
         yield return Co.ToUpdate;
         yield return Co.ToFixedUpdate;
