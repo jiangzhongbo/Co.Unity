@@ -1,0 +1,3 @@
+[submodule "Assets/Promise"]
+	path = Assets/Promise
+	url = https://github.com/jiangzhongbo/Promise.Unity.git
